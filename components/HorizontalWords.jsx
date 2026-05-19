@@ -175,8 +175,8 @@ const HorizontalWords = () => {
 
             <div className="horizontal-words__bottom-text">
                 <div className="horizontal-words__bottom-text-l">
-                    Audiences are more scattered <em>and</em> more reachable<br />
-                    than ever. We help brands become leaders on the<br />
+                    Digital products are more dynamic <em>and</em> more interactive<br />
+                    than ever. We help modern brands lead through<br />
                     channels of the new mainstream.
                 </div>
             </div>

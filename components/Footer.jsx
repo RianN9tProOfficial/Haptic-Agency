@@ -158,8 +158,8 @@ export default function Footer() {
             <div className="footer-top">
                 {/* Jobs */}
                 <div className="footer-column">
-                    <span className="footer-badge">looking for a job?</span>
-                    <h3>not hiring right now :(</h3>
+                    <span className="footer-badge">join the studio?</span>
+                    <h3>selective openings only</h3>
                 </div>
                 {/* Office */}
                 <div className="footer-column">
@@ -178,10 +178,10 @@ export default function Footer() {
                 </div>
                 {/* Contact */}
                 <div className="footer-column">
-                    <span className="footer-badge">contact</span>
+                    <span className="footer-badge">start a project</span>
                     <a href="mailto:hello@truus.co" className="footer-email">hello@truus.co</a>
-                    <a href="#" className="footer-whatsapp">send us a whatsapp*</a>
-                    <p className="footer-note">*we&apos;re millennials and gen-z: please do not call us.</p>
+                    <a href="#" className="footer-whatsapp">message us on whatsapp*</a>
+                    <p className="footer-note">*prefer async. short briefs, thoughtful builds.</p>
                     <div className="footer-socials" id="footer-socials">
                         {SOCIAL_ICONS.map(({ href, label, svg }) => (
                             <a

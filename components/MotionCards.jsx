@@ -128,7 +128,7 @@ export default function MotionCards() {
             {/* ─── Part 1: Bold Heading Text with SVG Sticker Placeholders ─── */}
             <div className="motion-card__heading">
                 <h2 className="motion-card__title">
-                    an agency built
+                    a studio built
                     <br />
                     for the future.
                 </h2>
@@ -233,7 +233,7 @@ export default function MotionCards() {
             <div className="motion-card__footer-text">
                 <p className="motion-card__description">
                     To reach the new generation you need to know where
-                    they are. We are a true 360° agency, working the
+                    they are. We are a creative development studio, building
                     whole spectrum from TikTok content to TVC and from influencer
                     collabs to out of home spectaculars.
                 </p>
