@@ -56,12 +56,48 @@
 }
 
 .logo-truus {
+    position: relative;
     display: block;
     width: 150px;
-    height: auto;
+    height: 40px;
 }
 
-.logo-truus path,
+.logo-truus__img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: auto;
+    transition: opacity 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logo-truus__img--light {
+    opacity: 1;
+}
+
+.logo-truus__img--dark {
+    opacity: 0;
+}
+
+.logo-truus__img--dark.is-fallback {
+    filter: brightness(0) invert(1);
+}
+
+.navbar.on-light .logo-truus__img--light {
+    opacity: 1;
+}
+
+.navbar.on-light .logo-truus__img--dark {
+    opacity: 0;
+}
+
+.navbar.on-dark .logo-truus__img--light {
+    opacity: 0;
+}
+
+.navbar.on-dark .logo-truus__img--dark {
+    opacity: 1;
+}
+
 .nav-bar__whatsapp-svg path {
     fill: currentColor;
     transition: fill 0.2s cubic-bezier(0.4, 0, 0.2, 1);
