@@ -158,8 +158,8 @@ export default function Footer() {
             <div className="footer-top">
                 {/* Jobs */}
                 <div className="footer-column">
-                    <span className="footer-badge">looking for a job?</span>
-                    <h3>not hiring right now :(</h3>
+                    <span className="footer-badge">join the studio?</span>
+                    <h3>selective openings only</h3>
                 </div>
                 {/* Office */}
                 <div className="footer-column">
@@ -169,7 +169,7 @@ export default function Footer() {
                         1032 LX amsterdam
                     </address>
                     <a href="#" className="footer-map-link">
-                        <span>Google Maps</span>
+                        <span>Studio Location</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 169 10" fill="none" className="draw-btn__svg">
                             <path d="M1 6.5661C56.3941 3.06082 112.187 1.20095 168 0.999878" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.25"></path>
                             <path d="M32.1313 8.63371C68.2147 6.92799 104.462 6.13378 140.695 6.25107" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.25"></path>
@@ -178,10 +178,10 @@ export default function Footer() {
                 </div>
                 {/* Contact */}
                 <div className="footer-column">
-                    <span className="footer-badge">contact</span>
+                    <span className="footer-badge">start a project</span>
                     <a href="mailto:hello@truus.co" className="footer-email">hello@truus.co</a>
-                    <a href="#" className="footer-whatsapp">send us a whatsapp*</a>
-                    <p className="footer-note">*we&apos;re millennials and gen-z: please do not call us.</p>
+                    <a href="#" className="footer-whatsapp">message us on whatsapp*</a>
+                    <p className="footer-note">*prefer async. short briefs, thoughtful builds.</p>
                     <div className="footer-socials" id="footer-socials">
                         {SOCIAL_ICONS.map(({ href, label, svg }) => (
                             <a
@@ -237,11 +237,11 @@ export default function Footer() {
                         <div className="credits-box">
                             <div className="credits-content">
                                 <div className="credits-item credit-wiggle">
-                                    <div className="overflow-wrapper"><span className="credits-label">design by</span></div>
+                                    <div className="overflow-wrapper"><span className="credits-label">direction</span></div>
                                     <div className="overflow-wrapper"><a href="#" className="credits-name" data-wiggle-target="true">Jordan</a></div>
                                 </div>
                                 <div className="credits-item credit-wiggle">
-                                    <div className="overflow-wrapper"><span className="credits-label">code by</span></div>
+                                    <div className="overflow-wrapper"><span className="credits-label">development</span></div>
                                     <div className="overflow-wrapper"><a href="#" className="credits-name" data-wiggle-target="true">Dennis</a></div>
                                 </div>
                             </div>
