@@ -338,7 +338,7 @@ export default function Navbar() {
                     </div>
                 </div>
                 <div className="nav-center" style={{ cursor: "url('/assets/Cursor SVG/cursor-pointer.svg') 12 12, pointer" }}>
-                    <div className="logo-truus" aria-label="Truus">
+                    <div className="logo-truus" aria-label="Haptic">
                         <img
                             src="/light mode.svg"
                             alt=""
@@ -350,12 +350,15 @@ export default function Navbar() {
                             }}
                         />
                         <img
-                            src="/dark mode.svg"
+                            src="/light mode.svg"
                             alt=""
                             aria-hidden="true"
                             className="logo-truus__img logo-truus__img--dark"
+                            onLoad={(e) => {
+                                e.currentTarget.src = '/dark mode.svg';
+                            }}
                             onError={(e) => {
-                                e.currentTarget.src = '/assets/Navbar SVG/logo-truus.svg';
+                                e.currentTarget.src = '/light mode.svg';
                                 e.currentTarget.classList.add('is-fallback');
                             }}
                         />
