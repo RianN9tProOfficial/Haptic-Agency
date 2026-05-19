@@ -177,7 +177,7 @@ const HorizontalWords = () => {
                 <div className="horizontal-words__bottom-text-l">
                     Digital products are more dynamic <em>and</em> more interactive<br />
                     than ever. We help modern brands lead through<br />
-                    channels of the new mainstream.
+                    creative technology and interaction design.
                 </div>
             </div>
         </section>

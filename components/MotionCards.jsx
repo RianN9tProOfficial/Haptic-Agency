@@ -133,7 +133,7 @@ export default function MotionCards() {
                     for the future.
                 </h2>
                 <p className="motion-card__subtitle">
-                    from TV to TikTok.
+                    where motion meets interaction.
                     {/* SVG sticker placeholder — top-right area */}
                     <span className="motion-card__sticker motion-card__sticker--top">
                         <img
@@ -218,13 +218,13 @@ export default function MotionCards() {
                 {/* Floating labels — positioned freely over the cards area */}
                 <div ref={containerRef} className="motion-card__floating-labels">
                     <div className="motion-card__floating-label motion-card__floating-label--pink">
-                        <p className="motion-card__floating-text">girls just wanna have fun!</p>
+                        <p className="motion-card__floating-text">cinematic interfaces</p>
                     </div>
                     <div className="motion-card__floating-label motion-card__floating-label--orange">
-                        <p className="motion-card__floating-text">mainstream is not a dirty word</p>
+                        <p className="motion-card__floating-text">interactive websites</p>
                     </div>
                     <div className="motion-card__floating-label motion-card__floating-label--red">
-                        <p className="motion-card__floating-text">arrogance = old fashioned</p>
+                        <p className="motion-card__floating-text">performance-first builds</p>
                     </div>
                 </div>
             </div>
@@ -232,10 +232,7 @@ export default function MotionCards() {
             {/* ─── Part 3: Bottom Paragraph Text ─── */}
             <div className="motion-card__footer-text">
                 <p className="motion-card__description">
-                    To reach the new generation you need to know where
-                    they are. We are a creative development studio, building
-                    whole spectrum from TikTok content to TVC and from influencer
-                    collabs to out of home spectaculars.
+                    We craft immersive websites and digital products with motion systems, interaction design, and performance-driven frontend engineering.
                 </p>
             </div>
         </section>
