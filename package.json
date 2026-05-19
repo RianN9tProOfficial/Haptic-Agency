@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run check:merge-markers && next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "check:merge-markers": "node scripts/check-merge-markers.js"
   },
   "dependencies": {
     "gsap": "^3.12.5",
