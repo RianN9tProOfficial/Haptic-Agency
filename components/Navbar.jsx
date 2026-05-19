@@ -339,8 +339,26 @@ export default function Navbar() {
                 </div>
                 <div className="nav-center" style={{ cursor: "url('/assets/Cursor SVG/cursor-pointer.svg') 12 12, pointer" }}>
                     <div className="logo-truus" aria-label="Truus">
-                        <img src="/light mode.svg" alt="" aria-hidden="true" className="logo-truus__img logo-truus__img--light" />
-                        <img src="/dark mode.svg" alt="" aria-hidden="true" className="logo-truus__img logo-truus__img--dark" />
+                        <img
+                            src="/light mode.svg"
+                            alt=""
+                            aria-hidden="true"
+                            className="logo-truus__img logo-truus__img--light"
+                            onError={(e) => {
+                                e.currentTarget.src = '/assets/Navbar SVG/logo-truus.svg';
+                                e.currentTarget.classList.add('is-fallback');
+                            }}
+                        />
+                        <img
+                            src="/dark mode.svg"
+                            alt=""
+                            aria-hidden="true"
+                            className="logo-truus__img logo-truus__img--dark"
+                            onError={(e) => {
+                                e.currentTarget.src = '/assets/Navbar SVG/logo-truus.svg';
+                                e.currentTarget.classList.add('is-fallback');
+                            }}
+                        />
                     </div>
                 </div>
                 <div className="nav-right" style={{ cursor: "url('/assets/Cursor SVG/cursor-pointer.svg') 12 12, pointer" }}>

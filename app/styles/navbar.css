@@ -78,6 +78,10 @@
     opacity: 0;
 }
 
+.logo-truus__img--dark.is-fallback {
+    filter: brightness(0) invert(1);
+}
+
 .navbar.on-light .logo-truus__img--light {
     opacity: 1;
 }
