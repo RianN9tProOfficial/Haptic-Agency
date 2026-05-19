@@ -190,11 +190,11 @@ export default function VimeoHero() {
                     <h1 className="vimeo-hero__title" ref={titleRef} onClick={(e) => e.stopPropagation()}>
 
                         {/* "we" */}
-                        <span className="vimeo-hero__word">we </span>
+                        <span className="vimeo-hero__word">craft </span>
 
                         {/* "make" + ⑤ smiley (no animation) */}
                         <span className="vimeo-hero__word is--relative">
-                            <span>make </span>
+                            <span>immersive </span>
                             <div className="home-header__smiley">
                                 <img
                                     src="/assets/VimeoHero SVG/smiley-face.svg"
@@ -204,16 +204,16 @@ export default function VimeoHero() {
                             </div>
                         </span>
 
-                        {/* "advertising" italic */}
-                        <span className="vimeo-hero__word"><em>advertising </em></span>
+                        {/* "websites" italic */}
+                        <span className="vimeo-hero__word"><em>websites </em></span>
 
                         {/* "for" */}
                         <span className="vimeo-hero__word">for </span>
 
                         <div style={{ flexBasis: '100%', height: 0 }} />
 
-                        <span className="vimeo-hero__word">the </span>
-                        <span className="vimeo-hero__word">new </span>
+                        <span className="vimeo-hero__word">modern </span>
+                        <span className="vimeo-hero__word">digital </span>
 
                         {/* "mainstream" + ⑤ pink star (no spin) + oval underline */}
                         <span className="vimeo-hero__word is--relative">
@@ -232,7 +232,7 @@ export default function VimeoHero() {
                                 alt=""
                                 className="home-header__title-line-svg"
                             />
-                            <span>mainstream</span>
+                            <span>brands</span>
                         </span>
 
                     </h1>
