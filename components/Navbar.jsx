@@ -345,7 +345,7 @@ export default function Navbar() {
                             aria-hidden="true"
                             className="logo-truus__img logo-truus__img--light"
                             onError={(e) => {
-                                e.currentTarget.src = '/assets/Navbar SVG/logo-truus.svg';
+                                e.currentTarget.src = '/light mode.svg';
                                 e.currentTarget.classList.add('is-fallback');
                             }}
                         />
