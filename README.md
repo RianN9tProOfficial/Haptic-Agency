@@ -1,33 +1,6 @@
-# Truus.co — Awwward-Winning Web Design Clone
+# Truus — Awwward-Winning Web Design
 
-A highly interactive, visually stunning recreation of the **Truus.co** website, rebuilt as a **Next.js + React** application. This project captures the bold aesthetics, playful interactivity, and smooth motion design characteristic of Awwward-winning websites — with every pixel and every frame of animation faithfully recreated.
-
-<table>
-  <tr>
-    <td align="center"><b>Header Section</b><br/><img width="100%" alt="Header Section" src="https://github.com/user-attachments/assets/195d1543-3e28-4678-8545-567ca9b08767" /></td>
-    <td align="center"><b>HorizontalWords Section</b><br/><img width="100%" alt="HorizontalWords Section placeholder" src="https://github.com/user-attachments/assets/fd76c800-fe37-48a3-a5bc-728aa5cdf5ef" /></td>
-
-  </tr>
-  <tr>
-    <td align="center"><b>MotionCard Section</b><br/><img width="100%" alt="MotionCard Section placeholder" src="https://github.com/user-attachments/assets/14d46fcf-f5d4-4b32-ac8e-e99eef1e964f" /></td>
-    <td align="center"><b>Service Card Section</b><br/><img width="100%" alt="Service Card Section" src="https://github.com/user-attachments/assets/cb80f406-998e-4853-9ea5-7dec87952117" /></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Double Marquee Section</b><br/><img width="100%" alt="Double marquee section" src="https://github.com/user-attachments/assets/9ca5af12-5e0b-4b81-954c-1dcb484c671a" /></td>
-    <td align="center"><b>Footer Section</b><br/><img width="100%" alt="Footer section" src="https://github.com/user-attachments/assets/1f0c8b9c-50c7-452e-af4c-23cadcdb58c0" /></td>
-  </tr>
-</table>
-
-
----
-
-## 🚀 Overview
-
-This project is a high-fidelity clone of the Truus advertising agency website. The codebase was originally built in vanilla HTML/CSS/JS and has been **fully transformed to Next.js 15 + React 19**, with all animations, interactions, and assets ported 1:1.
-
-### ⚠️ Note on the Hero Video
-The original Truus.co website uses a privately-hosted Vimeo video. Due to **Vimeo's Domain-Level Privacy Settings**, the video is restricted to the `truus.co` domain. The hero component uses a standard HTML5 `<video>` element with the `src` commented out, rendering a solid dark background. Place your `.mp4` in `public/` and update the source in `VimeoHero.jsx`.
-
+My own creative web dev agency portfolio
 ---
 
 ## ✨ Key Features
@@ -223,37 +196,12 @@ All SVGs are handled using one of three strategies:
 
 ---
 
-## ⚙️ Setup & Installation
 
-This project uses Next.js, so you need Node.js installed.
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/Thakuma07/Truus.co-Awwward-Website.git
-   cd truus
-   ```
-
-2. **Install dependencies**:
-   ```bash
-   npm install
-   ```
-
-3. **Start the development server**:
-   ```bash
-   npm run dev
-   ```
-
-4. **Open in your browser**:
-   ```
-   http://localhost:3000
-   ```
-
----
 
 ## 👨‍💻 Developed By
 
-Made with ❤️ by **Arkyadeep Pal**, **Soumyakanta Mitra** and **Anshu Ram**, powered by **Antigravity AI**.
+Made with ❤️ by **Rian**
 
 ## 📄 License
 
-This project is for educational and portfolio purposes. All original brand assets belong to Truus.co.
+This project is for educational and portfolio purposes.
